@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Readex+Pro:wght@200;300;400;500;600;700&display=swap");
+body {
+  display: flex;
+  flex-direction: column;
+  font-family: "Readex Pro", sans-serif;
+  background: var(--color-darkblue);
+  background-image: linear-gradient(
+      115deg,
+      rgba(72, 72, 170, 0.8),
+      rgba(136, 136, 206, 0.5)
+    ),
+    url(https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+#title {
+  text-align: center;
+  color: white;
+  
+}
+#description {
+  text-align: center;
+  color: white;
+
+  /* font-family: ita; */
+}
+.container {
+  margin-left: 150px;
+  width: 70%;
+  height: 90%;
+  background-color: #292846;
+  color: white;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  padding: 20px;
+  padding-left: 50px;
+}
+#survey-form input {
+  margin-bottom: 15px;
+  padding-right: 70%;
+  padding-bottom: 5px;
+  padding-top: 5px;
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+  border: none;
+}
+#dropdown {
+  padding-right: 70%;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+#comments {
+  padding-bottom: 60px;
+  padding-right: 70%;
+}
+button {
+  border: none;
+  color: white;
+  background-color: #37af65;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-inline: 42.5%;
+}
+
